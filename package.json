@@ -1,0 +1,16 @@
+{
+  "name": "babelTestHarness",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1"
+  },
+  "scripts": {
+    "build": "babel src/scripts -d src/lib"
+  },
+  "babel":{
+	"presets": ["env"]
+  }
+}
